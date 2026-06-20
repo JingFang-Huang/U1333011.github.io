@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>資訊管理學系-個人介紹網頁</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="banner">
+        <div class="banner-content">
+            <h2>「資訊管理 × 創意設計」</h2>
+            <p class="text-white-50">專案、技能、故事，完整呈現我的資管旅程</p>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container d-flex align-items-center">
+            <div class="d-flex align-items-center me-auto">
+                <img src="images/avatar.jpg" alt="我的頭像" class="img-fluid rounded-circle shadow-lg me-2"
+                    style="max-width: 60px; outline: 0.5px solid rgba(137, 116, 116, 0.8);">
+                <a class="navbar-brand fw-bold mb-0" href="#home">自我介紹</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="切換導覽">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link active" href="#home">首頁</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">關於我</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">教育</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">經驗</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">專案</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#articles">文章</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">活動</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">聯絡</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4500">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="第一張"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="第二張"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="第三張"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row align-items-center gy-3">
+                                <div class="col-md-6">
+                                    <img src="images/personal_image1.jpg" class="hero-img rounded-4" alt="個人照片一">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="hero-text">
+                                        <span class="badge bg-primary bg-opacity-20 text-primary mb-2">資訊管理 /
+                                            網頁設計</span>
+                                        <h2 class="fw-bold">我是黃鏡方，用資料與設計說故事</h2>
+                                        <p class="mb-4">專注於系統規劃、資料視覺化與專案協作，<br>打造直覺且美觀的數位作品。</p>
+                                        <a class="btn btn-primary btn-lg me-2" href="#about">自我介紹</a>
+                                        <a class="btn btn-outline-primary btn-lg" href="#projects">作品集</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row align-items-center gy-3">
+                                <div class="col-md-6 order-md-2">
+                                    <img src="images/活動參與_偏鄉學伴6.JPG" class="hero-img rounded-4" alt="個人照片二">
+                                </div>
+                                <div class="col-md-6 order-md-1">
+                                    <div class="hero-text">
+                                        <span class="badge bg-primary bg-opacity-20 text-primary mb-3">學校 / 主修 /
+                                            目標</span>
+                                        <h2 class="fw-bold">資訊管理專業學習者</h2>
+                                        <p class="mb-4">擅長 Python、資料庫與前端開發，<br>目標成為具備技術與商業視角的專才。</p>
+                                        <a class="btn btn-primary btn-lg me-2" href="#education">教育背景</a>
+                                        <a class="btn btn-outline-primary btn-lg" href="#contact">聯絡我</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row align-items-center gy-3">
+                                <div class="col-md-6">
+                                    <img src="images/活動參與_偏鄉學伴.JPG" class="hero-img rounded-4" alt="活動照片">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="hero-text">
+                                        <span class="badge bg-primary bg-opacity-20 text-primary mb-2">活動 / 實習 /
+                                            榮譽</span>
+                                        <h2 class="fw-bold">實作與團隊經驗累積</h2>
+                                        <p class="mb-4">從專案實習到志工活動，<br>持續提升資訊管理與協作能力。</p>
+                                        <a class="btn btn-primary btn-lg me-2" href="#experience">我的經驗</a>
+                                        <a class="btn btn-outline-primary btn-lg" href="#gallery">活動照片</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">上一張</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">下一張</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-5">
+                        <div class="card about-card shadow-lg border-0 overflow-hidden">
+                            <img src="images/personal_image2.jpg" class="card-img-top" alt="個人照片">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="section-heading mb-4">
+                            <span class="badge bg-primary bg-opacity-20 text-primary mb-2">自我介紹</span>
+                            <h2 class="fw-bold">你好，我是資訊管理系學生</h2>
+                            <p class="text-muted">擁有資訊管理背景與設計能力，<br>善於將資料分析、系統規劃與前端風格整合成有吸引力的專案。</p>
+                        </div>
+                        <div class="row g-3 mb-4">
+                            <div class="col-md-6">
+                                <div class="info-box p-4 rounded-4">
+                                    <h6 class="fw-semibold mb-2">學校</h6>
+                                    <p class="mb-0">聯合大學 大學資訊管理系-二年甲班</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-box p-4 rounded-4">
+                                    <h6 class="fw-semibold mb-2">主修</h6>
+                                    <p class="mb-0">資訊管理 </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-box p-4 rounded-4">
+                                    <h6 class="fw-semibold mb-2">興趣</h6>
+                                    <p class="mb-0">繪畫🎨、樂器🎹、看書 📚 </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-box p-4 rounded-4">
+                                    <h6 class="fw-semibold mb-2">目標</h6>
+                                    <p class="mb-0">成為跨領域專業工程師</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-outline-light btn-lg">一起合作</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="py-5 bg-overlay">
+            <div class="container">
+                <div class="section-heading text-center text-white mb-5">
+                    <span class="badge bg-primary bg-opacity-20 text-primary mb-2">教育背景</span>
+                    <h2 class="fw-bold text-dark">學歷與學術成就</h2>
+                    <p class="text-dark mx-auto" style="max-width: 700px;">整理在校期間的學習歷程與重要專案，<br>展現資訊管理領域的扎實訓練。</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card info-card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">聯合大學</h5>
+                                <p class="card-text text-muted">資訊管理學士</p>
+                                <p class="mb-0">重要課程：
+                                <ul>
+                                    <li>資料庫系統</li>
+                                    <li>人工智慧程式設計</li>
+                                    <li>前端網頁程式設計</li>
+                                    <li>App行動應用程式設計</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card info-card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">專題專案</h5>
+                                <p class="card-text text-muted">資料分析與系統整合</p>
+                                <p class="mb-0">使用 Python 與 MySQL 建置資料視覺化平台，<br>呈現使用者行為與報表分析。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card info-card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">學習成果</h5>
+                                <p class="card-text text-muted">主修與專業能力</p>
+                                <p class="mb-0">擅長跨部門協作，<br>快速理解需求並轉化為系統流程與視覺呈現。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="py-5">
+            <div class="container">
+                <div class="section-heading text-center mb-5">
+                    <span class="badge bg-primary bg-opacity-20 text-primary mb-2">經驗與實習</span>
+                    <h2 class="fw-bold">實習與專案經歷</h2>
+                    <p class="text-muted mx-auto" style="max-width: 700px;">描述我在實習、志工與專案中擔任的角色與學習成果。</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h5 class="mb-1">資訊管理實習生</h5>
+                        <span class="text-muted">2025 夏季實習</span>
+                        <p class="mb-0 text-muted">
+                        <ul>
+                            <li>協助資料庫系統的建置與維護。</li>
+                            <li>協助資料整理、報表自動化、參與 CRM 系統需求分析與客戶訪談。</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="timeline-item">
+                        <h5 class="mb-1">志工活動企劃</h5>
+                        <span class="text-muted">2024 偏鄉學伴</span>
+                        <p class="mb-0 text-muted">
+                        <ul>
+                            <li>擔任活動協調與紀錄，整理照片與成果報告，提升團隊合作能力。</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center gy-4">
+                    <div class="col-lg-5">
+                        <div class="section-heading mb-4">
+                            <span class="badge bg-primary bg-opacity-20 text-primary mb-2">專業技能</span>
+                            <h2 class="fw-bold">我的技能</h2>
+                            <p class="text-muted">資管領域技能一覽，涵蓋程式、資料、前端與專案協調。</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="skill-list">
+                            <div class="skill-item mb-3">
+                                <div class="d-flex justify-content-between mb-2"><span>Python /
+                                        資料分析</span><span>85%</span></div>
+                                <div class="progress rounded-pill" style="height: 12px;">
+                                    <div class="progress-bar bg-primary rounded-pill" role="progressbar"
+                                        style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item mb-3">
+                                <div class="d-flex justify-content-between mb-2"><span>SQL /
+                                        資料庫管理</span><span>80%</span></div>
+                                <div class="progress rounded-pill" style="height: 12px;">
+                                    <div class="progress-bar bg-primary rounded-pill" role="progressbar"
+                                        style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item mb-3">
+                                <div class="d-flex justify-content-between mb-2"><span>前端開發
+                                        (HTML/CSS/JS)</span><span>75%</span></div>
+                                <div class="progress rounded-pill" style="height: 12px;">
+                                    <div class="progress-bar bg-primary rounded-pill" role="progressbar"
+                                        style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item mb-3">
+                                <div class="d-flex justify-content-between mb-2"><span>專案管理與溝通</span><span>85%</span>
+                                </div>
+                                <div class="progress rounded-pill" style="height: 12px;">
+                                    <div class="progress-bar bg-primary rounded-pill" role="progressbar"
+                                        style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-5">
+            <div class="container">
+                <div class="section-heading text-center mb-5">
+                    <span class="badge bg-primary bg-opacity-20 text-primary mb-2">專案作品</span>
+                    <h2 class="fw-bold">學期間專案展示</h2>
+                    <p class="text-muted mx-auto" style="max-width: 700px;">展示獨立與團隊作品，說明技術、規劃與成果。</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card project-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <img src="images/咖啡廳預定系統1.png" class="card-img-top" alt="作品 1 圖片">
+                            <div class="card-body">
+                                <h5 class="card-title">咖啡廳預定系統 1：平台首頁設計</h5>
+                                <p class="card-text text-muted">菜單設計以及購物車</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card project-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <img src="images/咖啡廳預定系統2.png" class="card-img-top" alt="作品 2 圖片">
+                            <div class="card-body">
+                                <h5 class="card-title">咖啡廳預定系統 2：預定</h5>
+                                <p class="card-text text-muted">桌次選擇與預定流程</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card project-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <img src="images/咖啡廳預定系統3.png" class="card-img-top" alt="作品 3 圖片">
+                            <div class="card-body">
+                                <h5 class="card-title">咖啡廳預定系統 3：明細</h5>
+                                <p class="card-text text-muted">透過資料庫列出詳情</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card project-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <img src="images/Python_SET.png" class="card-img-top" alt="作品 4 圖片">
+                            <div class="card-body">
+                                <h5 class="card-title">SET Game：Python 資料分析</h5>
+                                <p class="card-text text-muted">使用 Python 進行遊戲設計與視覺化呈現。</p>
+                                <a href="https://youtu.be/z2uJSAOsVMc?si=loqJYFI-g9-ouC7d"
+                                    class="btn btn-outline-primary btn-sm mt-2" target="_blank"
+                                    rel="noopener noreferrer">觀看影片</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card project-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <img src="images/app_db.png" class="card-img-top" alt="作品 4 圖片">
+                            <div class="card-body">
+                                <h5 class="card-title">SET Game：Python 資料分析</h5>
+                                <p class="card-text text-muted">使用 Android Studio 撰寫資料庫邏輯。</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card project-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <img src="images/app_1.png" class="card-img-top" alt="作品 4 圖片">
+                            <div class="card-body">
+                                <h5 class="card-title">SET Game：Python 資料分析</h5>
+                                <p class="card-text text-muted">使用 Android Studio 進行購物應用程式設計。</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="articles" class="py-5 bg-overlay-soft">
+            <div class="container">
+                <div class="section-heading text-center mb-5">
+                    <span class="badge bg-primary bg-opacity-20 text-primary mb-2">文章</span>
+                    <h2 class="fw-bold">專業觀點與心得</h2>
+                    <p class="text-muted mx-auto" style="max-width: 700px;">分享我對資訊管理與科技趨勢的看法。</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12">
+                        <article class="card article-card border-0 shadow-sm rounded-4 overflow-hidden">
+                            <div class="card-body p-4 p-md-5">
+                                <div class="row g-4 align-items-start">
+                                    <div class="col-lg-8">
+                                        <h5 class="card-title mb-3">文章主題：從數據深處挖掘價值：資料探勘的實務與心法</h5>
+                                        <div class="card-text text-muted">
+                                            <h6 class="fw-semibold mb-2">1. 核心觀點：資料探勘不只是統計，更是「洞察」</h6>
+                                            <p class="mb-3">
+                                                資料探勘的核心在於從龐大且結構雜亂的數據集中，找出隱藏的模式、關聯與趨勢。對於資管人員而言，我們不僅要懂演算法，更要懂這些技術如何協助企業解決真實問題。
+                                            </p>
+
+                                            <h6 class="fw-semibold mb-2">2. 資料探勘的四大支柱（建議結合圖表呈現）</h6>
+                                            <p class="mb-2">在文章中，您可以簡述這四項技術如何應用：</p>
+                                            <ul class="mb-3">
+                                                <li><strong>分類 (Classification)：</strong> 透過訓練模型預測目標類別（例如：客戶流失預測）。</li>
+                                                <li><strong>分群 (Clustering)：</strong>
+                                                    在沒有預設標籤的情況下，將相似對象歸類（例如：精準行銷的用戶畫像/Persona）。</li>
+                                                <li><strong>關聯規則 (Association Rules)：</strong>
+                                                    挖掘項目之間的共生關係（例如：經典的「啤酒與尿布」購物籃分析）。</li>
+                                                <li><strong>迴歸分析 (Regression)：</strong> 預測連續性的數值變化（例如：下一季度的銷售額預測）。</li>
+                                            </ul>
+
+                                            <h6 class="fw-semibold mb-2">3. 從技術到落地：資管人的價值鏈</h6>
+                                            <p class="mb-2">專業素養的展現，在於您如何將上述技術「落地」。建議您可以討論以下流程：</p>
+                                            <ol class="mb-3">
+                                                <li><strong>資料前處理（Data Cleaning）：</strong>
+                                                    這是最耗時但也最重要的一環。分享您如何處理缺失值、雜訊與異常值，這能顯現您的細心與實務經驗。</li>
+                                                <li><strong>特徵工程（Feature Engineering）：</strong>
+                                                    這是資料探勘的靈魂。解釋您如何選取最能代表業務意義的特徵，而非盲目投入所有數據。</li>
+                                                <li><strong>模型迭代與評估：</strong> 透過混淆矩陣 (Confusion Matrix) 或 ROC
+                                                    曲線等工具，評估模型的準確度。</li>
+                                                <li><strong>業務轉譯：</strong> 將複雜的技術指標轉化為業務主管聽得懂的「投資報酬率 (ROI)」或「風險降低幅度」。
+                                                </li>
+                                            </ol>
+
+                                            <h6 class="fw-semibold mb-2">4. 結語：在自動化時代，人扮演的角色</h6>
+                                            <p class="mb-0">隨著 AutoML
+                                                的普及，演算法本身門檻降低了，但「定義問題」與「解讀結果」的能力將成為資管人員的護城河。強調您如何透過資料探勘，協助企業從「經驗法則」轉型為「數據驅動」的決策模式。
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-flex justify-content-lg-end">
+                                        <div class="d-flex flex-column gap-3 align-items-end"
+                                            style="width: 100%; max-width: 260px;">
+                                            <img src="images/Matlab1.png" class="img-fluid rounded-3 shadow-sm"
+                                                alt="Matlab 圖片 1">
+                                            <img src="images/Matlab2.png" class="img-fluid rounded-3 shadow-sm"
+                                                alt="Matlab 圖片 2">
+                                            <img src="images/Matlab3.png" class="img-fluid rounded-3 shadow-sm"
+                                                alt="Matlab 圖片 3">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards" class="py-5">
+            <div class="container">
+                <div class="section-heading text-center mb-5">
+                    <span class="badge bg-primary bg-opacity-20 text-primary mb-2">獲獎與榮譽</span>
+                    <h2 class="fw-bold">榮譽紀錄</h2>
+                    <p class="text-muted mx-auto" style="max-width: 700px;">列出我在資訊管理與學術領域中的重要成就。</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card award-card border-0 shadow-sm rounded-4 p-4 text-center h-100">
+                            <h5 class="fw-bold">校內獎學金</h5>
+                            <p class="text-muted">榮獲學業兩次書卷獎。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card award-card border-0 shadow-sm rounded-4 p-4 text-center h-100">
+                            <h5 class="fw-bold">專題競賽</h5>
+                            <p class="text-muted">參與專題競賽。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="py-5 bg-sky text-dark">
+            <div class="container">
+                <div class="section-heading text-center mb-5">
+                    <span class="badge bg-primary bg-opacity-20 text-primary mb-2">參與活動照片</span>
+                    <h2 class="fw-bold">活動照片與經歷</h2>
+                    <p class="mx-auto" style="max-width: 700px;">透過活動照片展示我參與的實務與社群經驗。</p>
+                </div>
+                <div id="galleryCarousel" class="carousel slide gallery-carousel" data-bs-ride="carousel"
+                    data-bs-interval="3200">
+                    <div class="carousel-inner rounded-4 overflow-hidden shadow-lg">
+                        <div class="carousel-item active">
+                            <img src="images/企業參訪1.jpg" class="d-block w-100 rounded-3" alt="參與活動 1">
+                            <div class="activity-caption">
+                                <h6>企業參訪：Google</h6>
+                                <p>Google門口團體合照</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/企業參訪2.jpg" class="d-block w-100 rounded-3" alt="參與活動 2">
+                            <div class="activity-caption">
+                                <h6>企業參訪：Google</h6>
+                                <p>會議訪談 & 經驗分享</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/活動參與_偏鄉學伴2.JPG" class="d-block w-100 rounded-3" alt="參與活動 3">
+                            <div class="activity-caption">
+                                <h6>社團活動：偏鄉學伴</h6>
+                                <p>相見歡活動</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/活動參與_偏鄉學伴3.JPG" class="d-block w-100 rounded-3" alt="參與活動 4">
+                            <div class="activity-caption">
+                                <h6>社團活動：偏鄉學伴</h6>
+                                <p>活動圓滿落幕大合照</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">上一張</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">下一張</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-5 bg-overlay-soft">
+            <div class="container">
+                <div class="section-heading text-center mb-5">
+                    <span class="badge bg-primary bg-opacity-20 text-primary mb-2">聯絡資訊</span>
+                    <h2 class="fw-bold">個人資料</h2>
+                    <p class="text-muted mx-auto" style="max-width: 700px;">以下是我的聯絡方式與社群資訊，歡迎與我聯繫。</p>
+                </div>
+                <div class="row justify-content-center align-items-center g-4">
+                    <div class="col-lg-7">
+                        <div class="card contact-card border-0 shadow-sm p-4">
+                            <div class="card-body">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-3"><strong>姓名：</strong>黃鏡方</li>
+                                    <li class="mb-3"><strong>IG：</strong>hjf_0823</li>
+                                    <li class="mb-3"><strong>地址：</strong>國立聯合大學二坪校區</li>
+                                    <li class="mb-3"><strong>電話：</strong>+886-1234-5678</li>
+                                    <li class="mb-0"><strong>Gmail：</strong>tai40470@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 shadow-sm p-4 text-center">
+                            <div class="card-body">
+                                <p class="mb-3 fw-semibold">IG QR Code</p>
+                                <div class="border rounded-3 overflow-hidden d-flex align-items-center justify-content-center"
+                                    style="height: 180px; background: #f8f9fa;">
+                                    <img src="images/IG.jpg" alt="IG QR Code" class="img-fluid h-100 w-100"
+                                        style="object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-4 text-center text-white-50">
+        <div class="container">
+            <p class="mb-1">© 2026 個人網頁</p>
+            <p class="mb-0">Bootstrap 5 + RWD 響應式設計</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
